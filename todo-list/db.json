@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "title": "Angular の学習",
+      "id": "c7051c2c-9f9e-452b-999f-1ce412415545",
+      "completed": false
+    },
+    {
+      "title": "Todoの追加",
+      "completed": false,
+      "id": "4abfc37b-6cc6-406c-b5bd-a2ef9a2f5109"
+    },
+    {
+      "title": "hoge",
+      "completed": true,
+      "id": "e87f8aec-2ea5-4a1b-9ab5-dceb69e9a405"
+    },
+    {
+      "title": "追加のデータ",
+      "completed": false,
+      "id": "598997e7-c4d6-4c93-ab77-cca9e8612284"
+    },
+    {
+      "title": "vvv",
+      "completed": false,
+      "id": "34d6c29a-ac21-46fa-b5d8-36e3b30fa527"
+    }
+  ]
+}
