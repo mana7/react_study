@@ -7,10 +7,18 @@ function TodoList({ todos, toggleTodo, deleteTodo }) {
     return (
       <li key={todo.id}>
         {todo.title}
-        <button onClick={() => toggleTodo(todo.id, todo.completed)}>
+        <button 
+          onClick={() => toggleTodo(todo.id, todo.completed)}
+          className={`${todo.completed ? 'doing' : 'done'}`}
+        >
           {label}
         </button>
-        <button onClick={() => deleteTodo(todo.id)}>削除</button>
+        <button 
+          onClick={() => deleteTodo(todo.id)}
+          className='delete'
+        >
+          削除
+        </button>
       </li>
     );
   });

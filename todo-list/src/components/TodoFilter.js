@@ -8,9 +8,8 @@ const filters = [
 
 function TodoFilter({ selectedFilter, handleFilter}) {
   return filters.map(filter => (
-    <label key={filter.type}>
+    <label key={filter.type} className={filter.type}>
       <input
-        className="button1"
         type="radio"
         value={filter.type}
         checked={filter.type === selectedFilter} //一致するラジオボタンを選択状態にする
